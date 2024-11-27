@@ -1,7 +1,13 @@
+# Sudoku Solver
+This project implements a Sudoku Solver that solves puzzles based on image input. By combining image processing techniques with OpenCV and a backtracking algorithm, the program efficiently extracts and solves Sudoku puzzles.
+### Features
+* Image-Based Input: Processes images to detect and extract Sudoku grids.
+* Digit Recognition: Recognizes numbers using pre-trained OCR and cleans noisy data.
+* Efficient Solving: Solves puzzles using a backtracking algorithm to ensure correctness.
 ### Prerequisites
 To run the program, you will need:
 * Python 3.8 or later
-* OpenCV library (opencv-python-headless)
+* OpenCV library
 * NumPy library
 ### Procedure
 1)  Image preprocessing by using thresholding
